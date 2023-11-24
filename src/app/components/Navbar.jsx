@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white  p-4 rounded-lg hover:shadow-lg ">
       <div className="container mx-auto flex items-center justify-between">
-        <div className=" flex items-center text-2xl">AD exports</div>
+        <div className=" flex items-center text-2xl">AD Exports</div>
         <div className="hidden md:flex space-x-4">
           <Link
             href="/"
@@ -56,7 +56,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="md:hidden">
-          <button onClick={toggleNavbar} className="text-white">
+          <button onClick={toggleNavbar} className="text-black">
             <svg
               className="w-6 h-6"
               fill="none"

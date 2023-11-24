@@ -38,11 +38,11 @@ const HeroSection = () => {
               alt=""
               width={80}
               height={80}
-              class="hidden lg:inline-block"
+              className="hidden lg:inline-block"
             />
           </a>
           <div className="max-w-xl lg:mr-[500px] lg:max-w-xs">
-            <h3 className="text-2xl underline decoration-pink-500 font-bold md:text-3xl">
+            <h3 className="text-3xl underline decoration-pink-500 font-bold mb-4 md:text-5xl">
               Introduction
             </h3>
 
