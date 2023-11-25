@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white  p-4 rounded-lg hover:shadow-lg ">
+    <nav className="bg-white top-0  p-4 rounded-lg hover:shadow-lg ">
       <div className="container mx-auto flex items-center justify-between">
         <div className=" flex items-center text-2xl">AD Exports</div>
         <div className="hidden md:flex space-x-4">
@@ -23,7 +23,7 @@ const Navbar = () => {
             </p>
           </Link>
           <Link
-            href="About"
+            href="/About"
             className="group  text-black font-medium transition-all duration-300 ease-in-out"
           >
             <p className="bg-left-bottom  bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">

@@ -10,8 +10,6 @@ export default function Home() {
   return (
     <>
       <div className="font-Poppins h-screen relative bg-white px-8 ">
-        <Navbar />
-
         <HeroSection />
 
         <Feature />
