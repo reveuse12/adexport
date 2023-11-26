@@ -93,13 +93,13 @@ const ProductGallery = () => {
               category === selectedCategory
                 ? "text-white border border-[#0f2b7f] bg-[#0f2b7f] focus:ring-4 focus:outline-none "
                 : "text-gray-900 border hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-black focus:ring-4 "
-            } rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800 sm:mb-0`}
+            } rounded-full text-base shadow-xl font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800 sm:mb-0`}
           >
             {category} Categories
           </button>
         ))}
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 gap-4">
         {filteredImages.map((image, index) => (
           <div key={index}>
             <Image
@@ -108,7 +108,7 @@ const ProductGallery = () => {
               height={500}
               loading="lazy"
               alt={`Product Image ${index + 1}`}
-              className="h-auto max-w-full rounded-lg"
+              className="h-auto max-w-full shadow-2xl rounded-lg"
             />
           </div>
         ))}

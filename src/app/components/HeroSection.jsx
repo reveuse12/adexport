@@ -17,7 +17,7 @@ const HeroSection = () => {
           <div className="flex items-stretch">
             <Link
               href="/#"
-              className="overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-lg text-xl font-bold cursor-pointer relative z-10 group"
+              className="overflow-hidden w-32 p-2 h-12 bg-black hover:shadow-xl hover:shadow-green-400 text-white border-none rounded-lg text-xl font-bold cursor-pointer relative z-10 group"
             >
               Contact Us
               <span className="absolute w-36 h-32 -top-8 -left-2 bg-green-200 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-right"></span>
@@ -32,7 +32,7 @@ const HeroSection = () => {
       </div>
       <div className="mx-auto max-w-7xl px-5 py-12 md:px-10 md:py-16 lg:py-20">
         <div className="relative flex max-w-7xl flex-col gap-4 lg:flex-row lg:justify-end">
-          <a href="#" className="absolute bottom-0 left-0">
+          <a href="#footer" className="absolute bottom-0 left-0">
             <Image
               src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a946f0be6cfa0_Frame%2048040.svg"
               alt=""
@@ -56,7 +56,7 @@ const HeroSection = () => {
           </div>
 
           <Image
-            src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94016de6cf90_Rectangle%2035.svg"
+            src="/hero.jpg"
             width={480}
             height={480}
             alt=""

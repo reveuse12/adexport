@@ -4,7 +4,8 @@ import Feature from "./components/Feature";
 import BrandSect from "./components/BrandSect";
 import OurMission from "./components/OurMission";
 import Footer from "./components/Footer";
-import NewsLetter from "./components/NewsLetter";
+import Testimonials from "./components/Testimonials";
+import Email from "./components/Email";
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
         <Feature />
         <BrandSect />
         <OurMission />
-        <NewsLetter />
+        <Testimonials />
+        <Email />
         <Footer />
       </div>
     </>

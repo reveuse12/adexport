@@ -1,6 +1,5 @@
 import React from "react";
 import ProductGallery from "../components/ProductGallery";
-
 const page = () => {
   return (
     <div>

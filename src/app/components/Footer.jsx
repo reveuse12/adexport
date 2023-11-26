@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className=" bottom-0 relative text-black">
+    <footer id="footer" className=" bottom-0 relative text-black">
       <div className="mx-auto w-full max-w-7xl  ">
         <div className="flex flex-col items-center">
           <Link
@@ -60,7 +60,7 @@ const Footer = () => {
           <div className="mb-12 grid w-full max-w-[208px] grid-flow-col grid-cols-4 gap-3">
             <Link
               href="#"
-              className="font-bold hover:bg-black rounded-full mx-auto flex max-w-[24px] flex-col"
+              className="font-bold hover:bg-pink-600 rounded-full mx-auto flex max-w-[24px] flex-col"
             >
               <Image
                 width={150}
@@ -72,7 +72,7 @@ const Footer = () => {
             </Link>
             <Link
               href="#"
-              className="mx-auto hover:bg-black rounded-full flex max-w-[24px] flex-col font-bold"
+              className="mx-auto hover:bg-pink-600 rounded-full flex max-w-[24px] flex-col font-bold"
             >
               <Image
                 width={150}
@@ -84,7 +84,7 @@ const Footer = () => {
             </Link>
             <Link
               href="#"
-              className="font-bold mx-auto hover:bg-black rounded-full flex max-w-[24px] flex-col"
+              className="font-bold mx-auto hover:bg-pink-600 rounded-full flex max-w-[24px] flex-col"
             >
               <Image
                 width={150}
@@ -96,7 +96,7 @@ const Footer = () => {
             </Link>
             <Link
               href="#"
-              className="mx-auto hover:bg-black rounded-full flex max-w-[24px] flex-col font-bold"
+              className="mx-auto hover:bg-pink-500 rounded-full flex max-w-[24px] flex-col font-bold"
             >
               <Image
                 width={250}
