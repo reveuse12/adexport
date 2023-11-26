@@ -134,7 +134,7 @@ const AboutPage = () => {
               Why Trust AD Export?
             </h2>
             <p className="max-w-3xl mx-auto">
-              AD Export is not just a company; it's a promise. A promise of
+              AD Export is not just a company; its a promise. A promise of
               reliability, quality, and a partnership that goes beyond business
               transactions. Our story, client successes, awards, and leadership
               are not just words on a page; they are the foundation of the trust
