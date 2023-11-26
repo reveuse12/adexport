@@ -10,7 +10,7 @@ const page = () => {
           {/* Heading Div */}
           <h2 className="text-3xl font-semibold md:text-5xl">
             <span className="bg-contain bg-center bg-no-repeat px-4 text-black">
-              Let's Build
+              Lets Build
             </span>
             Something Exciting Together
           </h2>
