@@ -1,5 +1,6 @@
 import React from "react";
 import Feature from "../components/Feature";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -36,7 +37,9 @@ const page = () => {
                   <p>6 mins read</p>
                 </div>
               </div>
-              <img
+              <Image
+                width={150}
+                height={150}
                 src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94016de6cf90_Rectangle%2035.svg"
                 alt=""
                 className="inline-block h-full w-full object-cover"
@@ -46,7 +49,9 @@ const page = () => {
               href="#"
               className="flex flex-col gap-4 rounded-md px-4 py-8 md:p-0"
             >
-              <img
+              <Image
+                width={150}
+                height={150}
                 src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94016de6cf90_Rectangle%2035.svg"
                 alt=""
                 className="inline-block h-60 w-full object-cover"
@@ -71,9 +76,11 @@ const page = () => {
               href="#"
               className="flex flex-col gap-4 rounded-md px-4 py-8 md:p-0"
             >
-              <img
+              <Image
                 src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94016de6cf90_Rectangle%2035.svg"
                 alt=""
+                width={150}
+                height={150}
                 className="inline-block h-60 w-full object-cover"
               />
               <div className="flex flex-col items-start py-4">
@@ -96,7 +103,9 @@ const page = () => {
               href="#"
               className="flex flex-col gap-4 rounded-md px-4 py-8 md:p-0"
             >
-              <img
+              <Image
+                width={150}
+                height={150}
                 src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a94016de6cf90_Rectangle%2035.svg"
                 alt=""
                 className="inline-block h-60 w-full object-cover"
