@@ -16,7 +16,7 @@ const HeroSection = () => {
 
           <div className="flex items-stretch">
             <Link
-              href="/#"
+              href="//api.whatsapp.com/send?phone=917874114149&text=Hey there, can i get more info on this?"
               className="overflow-hidden w-32 p-2 h-12 bg-black hover:shadow-xl hover:shadow-green-400 text-white border-none rounded-lg text-xl font-bold cursor-pointer relative z-10 group"
             >
               Contact Us
@@ -47,11 +47,12 @@ const HeroSection = () => {
             </h3>
 
             <p className="text-sm text-[#636262]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
-              lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+              At AD Export, our journey is woven with a commitment to excellence
+              and a passion for international trade. Established with a vision
+              to bridge global industries, we have evolved into a reliable name
+              in the export sector. Our story is one of unwavering dedication,
+              meticulous attention to detail, and a relentless pursuit of
+              delivering top-notch solutions to our clients.
             </p>
           </div>
 

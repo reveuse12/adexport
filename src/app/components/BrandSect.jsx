@@ -7,10 +7,10 @@ const BrandSect = () => {
       {/* <!--Section Logo Cloud --> */}
       <section>
         {/* <!--Container --> */}
-        <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
+        <div className="mx-auto w-full max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16">
           {/* <!--Title --> */}
           <h5 className="mb-6 text-center text-xl font-bold md:mb-12">
-            The world’s innovative companies use Flowspark
+            The world’s innovative companies use AD Export
           </h5>
           {/* <!--Content --> */}
           <div className="grid grid-cols-2 items-center justify-center gap-8 rounded-md bg-[#f2f2f7] p-16 px-8 py-12 sm:grid-cols-3 md:gap-16">

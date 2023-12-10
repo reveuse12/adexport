@@ -22,7 +22,7 @@ const AboutPage = () => {
         </header>
 
         {/* Meet Our Founders Section */}
-        <section className="col-span-2 py-6 hover:shadow-xl border rounded-xl text-black">
+        <section className="col-span-2 py-6 hover:shadow-xl rounded-xl text-black">
           <div className="container mx-auto text-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0f2b7f]">
               Meet Our Founders
@@ -65,7 +65,7 @@ const AboutPage = () => {
         </section>
 
         {/* About Section */}
-        <section className="col-span-2 hover:shadow-xl rounded-xl border py-6">
+        <section className="col-span-2 hover:shadow-xl rounded-xl  py-6">
           <div className="container mx-auto text-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 text-[#0f2b7f]">
               Our Story
@@ -81,10 +81,10 @@ const AboutPage = () => {
           </div>
         </section>
         {/* Award Logo List Section */}
-        <section className="col-span-2 hover:shadow-xl border rounded-xl py-6">
-          <div className="container mx-auto text-center">
+        <section className="col-span-2 flex hover:shadow-xl  rounded-xl py-6">
+          <div className=" mx-auto text-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 text-[#0f2b7f]">
-              Award Logos
+              Award
             </h2>
             <p className="max-w-2xl mx-auto">
               Recognition is a reflection of our commitment to excellence. AD
@@ -95,16 +95,20 @@ const AboutPage = () => {
               validate our continuous pursuit of excellence.
             </p>
             <div className="flex flex-wrap justify-center mt-8">
-              {/* Add award logos or images here
-            <img src="award1.png" alt="Award 1" className="m-4" />
-            <img src="award2.png" alt="Award 2" className="m-4" />
-            <img src="award3.png" alt="Award 3" className="m-4" /> */}
+              <Image
+                src="/iso9001.jpg"
+                width={300}
+                height={100}
+                loading="lazy"
+                alt="award"
+                className="object-cover shadow-xl rounded-xl mb-4 md:mb-0"
+              />
             </div>
           </div>
         </section>
 
         {/* Stats Section */}
-        <section className="col-span-2 py-6 border hover:shadow-xl rounded-xl">
+        <section className="col-span-2 py-6  hover:shadow-xl rounded-xl">
           <div className="container mx-auto flex justify-center">
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
               <div className="text-center md:text-left">
@@ -128,7 +132,7 @@ const AboutPage = () => {
         </section>
 
         {/* Closing Section */}
-        <section className="col-span-2 hover:shadow-xl border  rounded-xl py-6">
+        <section className="col-span-2 hover:shadow-xl  rounded-xl py-6">
           <div className="container mx-auto text-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 text-[#0f2b7f]">
               Why Trust AD Export?

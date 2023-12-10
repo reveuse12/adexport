@@ -2,13 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
-    <footer id="footer" className=" bottom-0 relative text-black">
+    <footer id="footer" className="bg-white rounded-t-full  text-black">
       <div className="mx-auto w-full max-w-7xl  ">
         <div className="flex flex-col items-center">
           <Link
             href="#"
-            className="mb-8 md:text-5xl text-xl inline-block group text-black transition-all duration-300 ease-in-out max-w-full"
+            className="m-8 md:text-5xl text-xl inline-block group text-black transition-all duration-300 ease-in-out max-w-full"
           >
             <p className="bg-left-bottom  bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
               AD Export
@@ -108,7 +109,7 @@ const Footer = () => {
             </Link>
           </div>
           <p className="max-[479px]:text-sm">
-            © Copyright 2021. All rights reserved.
+            © Copyright {year}. All rights reserved.
           </p>
         </div>
       </div>

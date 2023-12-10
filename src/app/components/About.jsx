@@ -5,9 +5,9 @@ const About = () => {
   return (
     <div>
       <section>
-        <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
+        <div className="mx-auto w-full max-w-7xl px-5 py-12 md:px-10 md:py-24 lg:py-32">
           <h2 className="mb-8 text-3xl font-bold md:text-5xl lg:mb-14">
-            Meet Flowspark
+            About AD Export: Precision Redefined
           </h2>
           <p className="mb-8 max-w-lg text-sm text-[#808080] sm:text-base lg:mb-24">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse

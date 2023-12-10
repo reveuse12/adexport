@@ -10,9 +10,25 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white top-0  p-4 rounded-lg hover:shadow-lg ">
+    <nav className="bg-white top-0  p-4 rounded-b-lg hover:shadow-lg ">
       <div className="container mx-auto flex items-center justify-between">
-        <div className=" flex items-center text-2xl">AD Exports</div>
+        <div className=" flex items-center text-2xl">
+          <Image
+            src="/ad.png"
+            alt="logo"
+            width={100}
+            height={100}
+            className="rounded-full"
+          />
+          <Link
+            href="/"
+            className="group text-black  transition-all duration-300 ease-in-out"
+          >
+            <p className="bg-left-bottom text-xl md:text-3xl bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+              AD Exports
+            </p>
+          </Link>
+        </div>
         <div className="hidden md:flex space-x-4">
           <Link
             href="/"
@@ -47,6 +63,14 @@ const Navbar = () => {
             </p>
           </Link>
           <Link
+            href="Machine"
+            className="group  text-black font-medium transition-all duration-300 ease-in-out"
+          >
+            <p className="bg-left-bottom  bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+              Machine LIst
+            </p>
+          </Link>
+          <Link
             href="Contact"
             className="group  text-black font-medium transition-all duration-300 ease-in-out"
           >
@@ -55,7 +79,7 @@ const Navbar = () => {
             </p>
           </Link>
         </div>
-        <div className="md:hidden">
+        <div className="md:hidden ">
           <button onClick={toggleNavbar} className="text-black">
             <svg
               className="w-6 h-6"
@@ -75,7 +99,7 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden">
+        <div className="md:hidden absolute w-full bg-white">
           <div className="flex flex-col space-y-4">
             <Link
               href="/"
