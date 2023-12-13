@@ -5,7 +5,7 @@ const BrandSect = () => {
   return (
     <>
       {/* <!--Section Logo Cloud --> */}
-      <section>
+      <section className="">
         {/* <!--Container --> */}
         <div className="mx-auto w-full max-w-7xl px-5 py-8 md:px-10 md:py-12 lg:py-16">
           {/* <!--Title --> */}
@@ -13,7 +13,7 @@ const BrandSect = () => {
             The world’s innovative companies use AD Export
           </h5>
           {/* <!--Content --> */}
-          <div className="grid grid-cols-2 items-center justify-center gap-8 rounded-md bg-[#f2f2f7] p-16 px-8 py-12 sm:grid-cols-3 md:gap-16">
+          <div className="grid grid-cols-2 items-center justify-center gap-8 rounded-md bg-[#D9D9D9] p-16 px-8 py-12 sm:grid-cols-3 md:gap-16">
             <div className="flex items-center justify-center">
               <Image
                 src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a948ffde6cf70_Microsoft%20Logo.svg"

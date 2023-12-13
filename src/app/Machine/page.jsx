@@ -12,20 +12,22 @@ const page = () => {
     { title: "4055 MM" },
   ];
   return (
-    <div className="p-16">
-      <h1 className="text-3xl font-bold underline decoration-pink-500 mb-16 md:text-5xl">
+    <div className="p-6 md:p-16">
+      <h1 className="text-3xl text-center font-bold underline decoration-pink-500 mb-16 md:text-5xl">
         Machine List
       </h1>
       <div className="mb-12">
         <h2 className="text-2xl font-semibold mb-12">Precision Modular Vice</h2>
         <div className="flex flex-col lg:flex-row gap-8">
-          <Image
-            src="/the-laser-cuts-4398315_1280.jpg"
-            alt="Precision Modular Vice"
-            width={500}
-            height={500}
-            className="rounded-lg h-full w-full object-contain shadow-lg"
-          />
+          <div className="lg:w-1/2 ">
+            <Image
+              src="/the-laser-cuts-4398315_1280.jpg"
+              alt="Precision Modular Vice"
+              width={500}
+              height={500}
+              className="rounded-lg h-full w-full object-contain shadow-lg"
+            />
+          </div>
           <div className="lg:w-1/2">
             <h3 className="text-xl font-semibold underline decoration-pink-500 mb-4">
               Modular Vice Opening
@@ -46,9 +48,9 @@ const page = () => {
 
       {/* section 1 */}
       <div className="flex flex-col lg:flex-row mb-12">
-        <div className="lg:w-1/2 mb-8 lg:mb-0">
-          <h3 className="text-xl font-bold mb-4">Product E2710</h3>
-          <p className="underline text-lg font-semibold decoration-pink-500 mb-4">
+        <div className="lg:w-1/2 md:p-8">
+          <h3 className="text-2xl font-bold mb-8">Product E2710</h3>
+          <p className="underline text-lg font-semibold decoration-pink-500 mb-6">
             Key Features
           </p>
           <ul className="list-disc leading-8">
@@ -79,20 +81,20 @@ const page = () => {
             </li>
           </ul>
         </div>
-        <div className="lg:w-1/2 p-8 w-full">
+        <div className="lg:w-1/2 md:p-8">
           <Image
             src="/2710.png"
             alt="Product E2710"
             width={500}
             height={500}
-            className="rounded-lg h-full w-full shadow-lg"
+            className="rounded-lg h-full object-contain w-full shadow-lg"
           />
         </div>
       </div>
 
       {/* section 2 */}
       <div className="flex flex-col lg:flex-row mb-12">
-        <div className="lg:w-1/2 w-full">
+        <div className="lg:w-1/2 mb-12 md:p-8">
           <Image
             src="/blueprint.png"
             alt="Product E2710"
@@ -101,8 +103,8 @@ const page = () => {
             className="rounded-lg h-full w-full object-contain shadow-lg"
           />
         </div>
-        <div className="lg:w-1/2 w-full">
-          <p className="text-xl font-semibold mb-12 underline decoration-pink-500">
+        <div className="lg:w-1/2 md:p-8">
+          <p className="text-xl font-semibold mb-6 md:mb-12 underline decoration-pink-500">
             Standard Accessories
           </p>
           <ul className="list-disc leading-12">
@@ -116,9 +118,9 @@ const page = () => {
 
       {/* section 3 */}
       <div className="flex flex-col lg:flex-row mb-12">
-        <div className="">
-          <h3 className="text-xl font-bold mb-8">Product E2711</h3>
-          <p className="text-lg mb-8 underline decoration-pink-500 font-semibold">
+        <div className="lg:w-1/2 md:p-8">
+          <h3 className="text-2xl font-bold mb-8">Product E2711</h3>
+          <p className="text-lg mb-6 underline decoration-pink-500 font-semibold">
             Scope Of Application
           </p>
           <ul className="list-disc">
@@ -155,7 +157,7 @@ const page = () => {
             </li>
           </ul>
         </div>
-        <div className="lg:w-1/2 w-full">
+        <div className="lg:w-1/2 md:p-8">
           <Image
             src="/2711.png"
             alt="Product E2710"
@@ -168,17 +170,17 @@ const page = () => {
 
       {/* section 4 */}
       <div className="flex flex-col lg:flex-row mb-12">
-        <div className="lg:w-1/2 w-full">
+        <div className="lg:w-1/2 mb-12 md:p-8">
           <Image
             src="/blueprint.png"
             alt="Product E2710"
             width={500}
             height={500}
-            className="rounded-lg shadow-lg"
+            className="rounded-lg h-full object-contain w-full shadow-lg"
           />
         </div>
-        <div className="lg:w-1/2 w-full">
-          <p className="text-lg font-semibold underline decoration-pink-500">
+        <div className="lg:w-1/2 md:p-8">
+          <p className="text-lg mb-6 md:mb-12 font-semibold underline decoration-pink-500">
             Standard Accessories
           </p>
           <ul className="list-disc leading-12">
@@ -192,9 +194,9 @@ const page = () => {
 
       {/* section 5 */}
       <div className="flex flex-col lg:flex-row mb-12">
-        <div>
-          <h3 className="text-xl font-bold mb-12">Product E2712</h3>
-          <p className="underline font-semibold text-lg decoration-pink-500">
+        <div className="lg:w-1/2 md:p-8">
+          <h3 className="text-2xl font-bold mb-8">Product E2712</h3>
+          <p className="underline mb-6 font-semibold text-lg decoration-pink-500">
             Scope Of Application
           </p>
           <ul className="list-disc">
@@ -240,7 +242,7 @@ const page = () => {
             </li>
           </ul>
         </div>
-        <div className="lg:w-1/2 w-full">
+        <div className="lg:w-1/2 md:p-8">
           <Image
             src="/2712.png"
             alt="Product E2710"
@@ -253,7 +255,7 @@ const page = () => {
 
       {/* section 6 */}
       <div className="flex flex-col lg:flex-row mb-12">
-        <div className="lg:w-1/2 w-full">
+        <div className="lg:w-1/2 mb-12 md:p-8">
           <Image
             src="/blueprint12.png"
             alt="Product E2710"
@@ -262,8 +264,8 @@ const page = () => {
             className="rounded-lg h-full w-full object-contain shadow-lg"
           />
         </div>
-        <div>
-          <p className="text-lg underline decoration-pink-500">
+        <div className="lg:w-1/2 md:p-8">
+          <p className="text-lg mb-6 md:mb-12 underline font-semibold decoration-pink-500">
             Standard Accessories
           </p>
           <ul className="list-disc leading-12">

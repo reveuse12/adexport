@@ -6,8 +6,8 @@ const AboutPage = () => {
     <>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 p-8">
         {/* Header Section */}
-        <header className="col-span-2 hover:shadow-xl text-black py-16 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4 text-[#0f2b7f]">
+        <header className="col-span-2 bg-[#D9D9D9] rounded-xl hover:shadow-xl text-black py-8 md:py-16  text-center">
+          <h1 className="text-4xl underline decoration-pink-500 md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4 text-[#0f2b7f]">
             About Us
           </h1>
           <p className="max-w-3xl mx-auto text-lg">
@@ -22,9 +22,9 @@ const AboutPage = () => {
         </header>
 
         {/* Meet Our Founders Section */}
-        <section className="col-span-2 py-6 hover:shadow-xl rounded-xl text-black">
+        <section className="col-span-2 py-8 md:py-16 hover:shadow-xl rounded-xl text-black">
           <div className="container mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0f2b7f]">
+            <h2 className="text-2xl underline decoration-pink-500 md:text-4xl lg:text-5xl font-semibold text-[#0f2b7f]">
               Meet Our Founders
             </h2>
             <p className="mt-4 text-lg max-w-3xl mx-auto">
@@ -32,7 +32,7 @@ const AboutPage = () => {
               comprised of highly skilled professionals with a passion for
               international trade.
             </p>
-            <div className="flex flex-wrap justify-center my-8 gap-8">
+            <div className="flex flex-wrap justify-center my-8 gap-24">
               {/* Add team members or images here */}
               <Image
                 src="/found.jpeg"
@@ -65,9 +65,9 @@ const AboutPage = () => {
         </section>
 
         {/* About Section */}
-        <section className="col-span-2 hover:shadow-xl rounded-xl  py-6">
+        <section className="col-span-2 bg-[#D9D9D9] hover:shadow-xl rounded-xl py-8 md:py-16 ">
           <div className="container mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 text-[#0f2b7f]">
+            <h2 className="text-2xl underline decoration-pink-500 md:text-4xl lg:text-5xl font-semibold mb-4 text-[#0f2b7f]">
               Our Story
             </h2>
             <p className="text-gray-700 max-w-2xl mx-auto">
@@ -80,10 +80,11 @@ const AboutPage = () => {
             </p>
           </div>
         </section>
+
         {/* Award Logo List Section */}
-        <section className="col-span-2 flex hover:shadow-xl  rounded-xl py-6">
+        <section className="col-span-2 flex hover:shadow-xl  rounded-xl py-8 md:py-16 ">
           <div className=" mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 text-[#0f2b7f]">
+            <h2 className="text-2xl underline decoration-pink-500 md:text-4xl lg:text-5xl font-semibold mb-6 text-[#0f2b7f]">
               Award
             </h2>
             <p className="max-w-2xl mx-auto">
@@ -108,7 +109,7 @@ const AboutPage = () => {
         </section>
 
         {/* Stats Section */}
-        <section className="col-span-2 py-6  hover:shadow-xl rounded-xl">
+        <section className="col-span-2 bg-[#D9D9D9] py-8 md:py-16  hover:shadow-xl rounded-xl">
           <div className="container mx-auto flex justify-center">
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
               <div className="text-center md:text-left">
@@ -132,9 +133,9 @@ const AboutPage = () => {
         </section>
 
         {/* Closing Section */}
-        <section className="col-span-2 hover:shadow-xl  rounded-xl py-6">
+        <section className="col-span-2 hover:shadow-xl  rounded-xl py-8 md:py-16 ">
           <div className="container mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 text-[#0f2b7f]">
+            <h2 className="text-2xl underline decoration-pink-500 md:text-4xl lg:text-5xl font-semibold mb-4 text-[#0f2b7f]">
               Why Trust AD Export?
             </h2>
             <p className="max-w-3xl mx-auto">

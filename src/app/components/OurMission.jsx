@@ -7,7 +7,8 @@ const OurMission = () => {
       <section>
         <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
           <h2 className="mb-8 text-3xl underline decoration-pink-500 font-bold md:text-5xl lg:mb-14">
-            About AD Export: Precision Redefined
+            About AD Export:{" "}
+            <span className="text-[#0f2b7f]">Precision Redefined</span>
           </h2>
           <p className="mb-8 max-w-xl text-sm text-[#808080] sm:text-base lg:mb-24">
             Welcome to AD Export, where precision meets innovation in the CNC
@@ -25,7 +26,7 @@ const OurMission = () => {
               className="inline-block border shadow-lg rounded-2xl object-fill"
             />
             <div className="flex flex-col gap-5 rounded-2xl border border-solid border-black p-10 sm:p-20">
-              <h2 className="mb-4 text-2xl underline decoration-pink-500 font-semibold md:text-3xl lg:mb-8">
+              <h2 className="mb-2 text-2xl underline decoration-pink-500 font-semibold md:text-3xl lg:mb-4">
                 Our Mission
               </h2>
               <p className="text-base text-[#808080] sm:text-base">

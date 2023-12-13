@@ -22,7 +22,7 @@ const Navbar = () => {
           />
           <Link
             href="/"
-            className="group text-black  transition-all duration-300 ease-in-out"
+            className="group text-[#0f2b7f] font-semibold transition-all duration-300 ease-in-out"
           >
             <p className="bg-left-bottom text-xl md:text-3xl bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
               AD Exports
@@ -124,6 +124,12 @@ const Navbar = () => {
               className="text-black hover:text-blue-300 transition duration-300"
             >
               Services
+            </Link>
+            <Link
+              href="Services"
+              className="text-black hover:text-blue-300 transition duration-300"
+            >
+              Machine List
             </Link>
             <Link
               href="Contact"
