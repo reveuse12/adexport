@@ -126,7 +126,7 @@ const Navbar = () => {
               Services
             </Link>
             <Link
-              href="Services"
+              href="Machine"
               className="text-black hover:text-blue-300 transition duration-300"
             >
               Machine List
